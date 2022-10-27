@@ -12,7 +12,7 @@ python enum choices lib
 
 ```
 https://pypi.org/simple
-https://pypi.tuna.tsinghua.edu.cn/simple/humplib/
+https://pypi.tuna.tsinghua.edu.cn/simple/enum_choices/
 
 pip install -i https://pypi.org/simple  enum_choices
 ```
@@ -20,28 +20,23 @@ pip install -i https://pypi.org/simple  enum_choices
 ## 测试py3
 
 ```shell
-(venv) ➜  humplib git:(main) ✗ python mk.py 
-========================================================================= test session starts ==========================================================================
-platform darwin -- Python 3.9.0a5+, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
-rootdir: /Users/huoyinghui/github/pip-tools/humplib
-collected 4 items                                                                                                                                                      
+(venv) ➜  choices git:(main) python mk.py 
+========================================================================================= test session starts ==========================================================================================
+platform linux -- Python 3.8.10, pytest-7.1.3, pluggy-1.0.0
+rootdir: /home/huoyinghui/github/choices
+collected 5 items                                                                                                                                                                                      
 
-tests/test_humplib.py ....                                                                                                                                       [100%]
+tests/test_choices.py .....                                                                                                                                                                      [100%]
 
-========================================================================== 4 passed in 0.01s ===========================================================================
-========================================================================= test session starts ==========================================================================
-platform darwin -- Python 3.9.0a5+, pytest-6.2.1, py-1.10.0, pluggy-0.13.1
-rootdir: /Users/huoyinghui/github/pip-tools/humplib
-collected 4 items                                                                                                                                                      
+========================================================================================== 5 passed in 0.01s ===========================================================================================
+========================================================================================= test session starts ==========================================================================================
+platform linux -- Python 3.8.10, pytest-7.1.3, pluggy-1.0.0
+rootdir: /home/huoyinghui/github/choices
+collected 5 items                                                                                                                                                                                      
 
-tests/test_humplib.py ....                                                                                                                                       [100%]
+tests/test_choices.py .....                                                                                                                                                                      [100%]
 
-========================================================================== 4 passed in 0.01s ===========================================================================
-Building humplib (0.1.0)
-  - Building sdist
-  - Built humplib-0.1.0.tar.gz
-  - Building wheel
-  - Built humplib-0.1.0-py2.py3-none-any.whl
-
+========================================================================================== 5 passed in 0.01s ===========================================================================================
+(venv) ➜  choices git:(main) ✗ 
 ```
 
